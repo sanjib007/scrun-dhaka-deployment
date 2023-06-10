@@ -1,20 +1,20 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  agilebd2023
+  name:  sanjib1984
   namespace: demo
 spec:
   selector:
     matchLabels:
-      app: agilebd2023
+      app: sanjib1984
   template:
     metadata:
       labels:
-        app: agilebd2023
+        app: sanjib1984
     spec:
       containers:
-        - name: agilebd2023
-          image: mirajehossain/agilebd2023:latest
+        - name: sanjib1984
+          image: sanjib1984/scrum-dhaka:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
